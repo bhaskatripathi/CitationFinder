@@ -8,10 +8,15 @@ As a researcher, it is often necessary to substantiate one's statements with exi
 ## The Solution:
 
 To solve these problems, we propose a tool that uses both semantic and AI search techniques to generate relevant citations for a given text. The tool searches the Crossref database using a combination of text-based queries and extracted keywords to identify relevant literature. The search results are then ranked based on their relevance score, which is generated using AI techniques. The most relevant citations are presented to the user in a user-friendly format, allowing them to quickly and easily review the literature and add relevant citations to their research paper.
-
 With this tool, researchers can save time and effort by quickly finding and selecting relevant citations, improving their research process, and enabling them to publish their work more efficiently. Additionally, the tool can aid researchers in identifying new research areas by surfacing relevant literature, helping them stay up-to-date with the latest developments in their field.
 
+## Demo: 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bhaskatripathi/CitationFinder/blob/main/GenerateCitations.ipynb)
+
+
 ## UML:
+![UML diagram](https://github.com/bhaskatripathi/CitationFinder/blob/main/UML.PNG)
+
 sequenceDiagram
     participant User
     participant API
