@@ -12,7 +12,6 @@ To solve these problems, we propose a tool that uses both semantic and AI search
 With this tool, researchers can save time and effort by quickly finding and selecting relevant citations, improving their research process, and enabling them to publish their work more efficiently. Additionally, the tool can aid researchers in identifying new research areas by surfacing relevant literature, helping them stay up-to-date with the latest developments in their field.
 
 ## UML:
- `mermaid`
 sequenceDiagram
     participant User
     participant API
@@ -35,3 +34,5 @@ sequenceDiagram
     Pandas->>-API: Send Sorted DataFrame
     User->>+API: Get Citations
     API->>+User: Display Citations
+
+
